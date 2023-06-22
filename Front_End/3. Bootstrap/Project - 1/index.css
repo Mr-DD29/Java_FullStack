@@ -1,0 +1,124 @@
+/* NAVIGATION BAR */
+
+#navbar {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    padding: .5rem 3rem;
+    z-index: 100;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, .5);
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(235, 122, 123);
+}
+
+#navbarSupportedContent a {
+    color: black;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid rgb(235, 122, 123);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.navbar button {
+    background: rgb(235, 122, 123);
+    width: 5rem;
+    border-radius: 25px;
+}
+
+.navbar button:hover {
+    background: black;
+    color: white;
+}
+
+/* FOR ALL THE SECTIONS */
+
+section {
+    width: 100%;
+    min-height: 100vh;  
+}
+
+/* HOME SECTION */
+
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(img/back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#home h1 {
+    font-size: 60px;
+    color: #e3d26f;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #897d00,
+                 0px 2px 0px #897d00,
+                 0px 3px 0px #897d00,
+                 0px 4px 0px #897d00,
+                 0px 5px 0px #897d00,
+                 0px 6px 0px #897d00,
+                 0px 1px 0px #897d00;
+}
+
+#home p {
+    font-size: 23px;
+    color: white;
+}
+
+#home .input-group {
+    width: 35%;
+    height: 45px;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    background: linear-gradient(to right, #ffea00, #e0aaff 70%)
+}
+
+#about h2 {
+    color: rgb(235, 122, 123);
+    font-weight: 500;
+}
+
+/* PRODUCT SECTION */
+
+#product h1 {
+    color: rgb(235, 122, 123);
+    font-weight: 700;
+}
+
+#product h4 {
+    color: rgb(235, 122, 123);
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background: #e5e5e5 !important;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .3),
+                inset 4px 4px 10px gray;    
+}
+
+.card:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3),
+                inset -4px -4px 10px white;
+    transition: 3s;
+}
+
+
+/* CONTACT US */
+
+#contact h2 {
+    color: rgb(235, 122, 123);
+}
+
+#contact .btn {
+    background-color: rgb(235, 122, 123);
+}
+
